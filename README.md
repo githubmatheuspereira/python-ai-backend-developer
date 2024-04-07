@@ -1,14 +1,14 @@
 # Python AI Backend Developer - Coding The Future Vivo
 
 ### Introdução
-- [O que é Python?](https://docs.python.org/pt-br/3/tutorial/index.html#introducao)
-- [Por que usar Python?](https://docs.python.org/pt-br/3/tutorial/index.html#por-que-usar-python)
-- [Instalação do Python](https://docs.python.org/pt-br/3/tutorial/index.html#instalando-python)
+- [O que é Python?](https://docs.python.org/pt-br/dev/faq/general.html#what-is-python)
+- [Por que usar Python?](https://awari.com.br/por-que-aprender-python-motivos-para-investir-nessa-linguagem-de-programacao/)
+- [Instalação do Python](https://www.python.org/downloads/)
 
 ### Básico de Python
-- [Sintaxe básica](https://docs.python.org/pt-br/3/tutorial/index.html#sintaxe-basica)
-- [Tipos de dados](https://docs.python.org/pt-br/3/tutorial/index.html#tipos-de-dados)
-- [Operadores](https://docs.python.org/pt-br/3/tutorial/index.html#operadores-e-expressoes)
+- [Sintaxe básica](https://pythoniluminado.netlify.app/sintaxe)
+- [Tipos de dados](https://docs.python.org/pt-br/3/library/datatypes.html)
+- [Operadores](https://docs.python.org/pt-br/3/library/operator.html)
 - [Estruturas de controle](https://docs.python.org/pt-br/3/tutorial/controlflow.html)
 - [Funções](https://docs.python.org/pt-br/3/tutorial/controlflow.html#defining-functions)
 
