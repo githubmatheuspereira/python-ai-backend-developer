@@ -47,3 +47,23 @@ git branch -d teste      # Deleta a branch de teste
 ```
 git log                  # Visualiza o histórico de commits
 ```
+
+# Comandos Git Comuns e suas Utilidades
+
+### `git fetch origin main`
+Este comando busca as últimas alterações da branch `main` do repositório remoto `origin` e as traz para o seu repositório local. No entanto, ele não mescla as alterações automaticamente com a sua branch atual.
+
+### `git diff main origin/main`
+Este comando mostra as diferenças entre a sua branch local `main` e a branch `main` do repositório remoto `origin`. Ele permite visualizar as alterações antes de mesclá-las.
+
+### `git merge origin/main`
+Esse comando mescla as alterações da branch `main` do repositório remoto `origin` na sua branch local atual. É útil quando você deseja incorporar as alterações feitas por outros colaboradores no repositório remoto ao seu código local.
+
+### `git clone URL --branch teste --single-branch`
+Este comando clona um repositório remoto especificado pela `URL`, mas apenas a `branch teste` e seus commits relacionados serão baixados, ignorando todas as outras branches.
+
+### `git stash`
+Este comando é usado para temporariamente armazenar as alterações locais que não estão prontas para serem confirmadas, permitindo-lhe alternar entre as branches ou realizar outras operações sem precisar fazer commit das alterações atuais.
+
+### `git stash list`
+Este comando lista todas as "stash" (pilha) de alterações que você temporariamente armazenou usando `git stash`. Ele mostra os IDs das stashes e uma breve descrição das alterações armazenadas.
